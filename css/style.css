@@ -19,7 +19,7 @@ h2 {
     padding: 0px;
     border-radius: 15px;
     border: 1px solid #ddd; /* Light border */
-    width: 80%; /* Responsive width adjustment */
+    width: 90%; /* Responsive width adjustment */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 

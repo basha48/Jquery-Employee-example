@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Form</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Employees</h2>
+    <form>
+        <table id="empTable">
+            <thead>
+                <tr>
+                    <th>emp Id</th>
+                    <th>Full Name</th>
+                    <th>Dept</th>
+                    <th>Designation</th>
+                    <th>Date of Joining</th>
+                    <th>Basic Pay</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td><input type="text" id="empName"></td>
+                    <td><select id="dept"></select></td>
+                    <td><input type="text" id="desig"></td>
+                    <td><input type="date" id="dateOfJoining"></td>
+                    <td><input type="number" id="bpay" readonly></td>
+                    <td><button type="button" id="btnAdd" disabled>ADD</button></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td id="icount">0</td>
+                    <td colspan="2">employee(s) are added</td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>
